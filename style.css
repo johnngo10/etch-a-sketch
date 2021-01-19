@@ -32,4 +32,36 @@ header {
 
 .squares {
   border: 1px solid black;
+  background-color: white;
+}
+
+/* Input */
+
+#input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+#form {
+  margin: 10px;
+}
+
+#numInput {
+  border: 3px solid black;
+  padding: 3px;
+  font-size: 16px;
+}
+
+#numInput:focus {
+  outline: none;
+}
+
+#submit {
+  padding: 5px;
+  border: 3px solid black;
+  color: white;
+  background-color: black;
 }
